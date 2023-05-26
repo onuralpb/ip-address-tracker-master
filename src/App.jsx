@@ -11,7 +11,7 @@ function App() {
 
   const fetchData = async () => {
     const response = await fetch(
-      `https://geo.ipify.org/api/v2/country,city?apiKey=at_1eUUuYV6KI6y168OZtcktzu982kyN&ipAddress=${ipNumber}`
+      `https://geo.ipify.org/api/v2/country,city?apiKey=at_QPKbk5ClHvpIs2iE1E0QTWURophvt&ipAddress=${ipNumber}`
     );
     if (response.ok) {
       const data = await response.json();
