@@ -29,10 +29,7 @@ const MapLeaflet = ({ center, zoom, region, position }) => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker
-        position={markerPosition}
-        icon={createIcon("/public/icon-location.svg")}
-      >
+      <Marker position={markerPosition} icon={createIcon("/icon-location.svg")}>
         <Popup>Hello there, This is {region}</Popup>
       </Marker>
     </MapContainer>
