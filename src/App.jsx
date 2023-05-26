@@ -6,7 +6,7 @@ import MapLeaflet from "./mapLeaflet";
 
 function App() {
   const [ipInfos, setIpInfos] = useState();
-  const [ipNumber, setIpNumber] = useState("176.234.93.82");
+  const [ipNumber, setIpNumber] = useState("8.8.8.8");
   const inputSearch = useRef();
 
   const fetchData = async () => {
