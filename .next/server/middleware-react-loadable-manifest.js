@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"index.js -> ../Map":{"id":"index.js -> ../Map","files":["static/chunks/src_Map_jsx.js"]}}
